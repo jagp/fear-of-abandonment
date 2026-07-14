@@ -1,0 +1,8 @@
+{
+  "name": "fear-of-abandonment",
+  "description": "Read-only audit for stranded agent work: branches not merged into the integration branch, orphaned worktrees, and uncommitted changes hiding inside linked worktrees.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Jared Parmenter"
+  }
+}
