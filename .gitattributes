@@ -1,0 +1,5 @@
+# Shell scripts must be checked out with LF endings on every platform,
+# regardless of the user's core.autocrlf setting. A CR byte on the shebang
+# line breaks direct execution (bad interpreter: ...^M), and inline CRs can
+# surface as `$'\r': command not found` under a strict POSIX sh/dash.
+*.sh text eol=lf
